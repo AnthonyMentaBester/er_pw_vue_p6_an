@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import NavBar from './components/NavBar.vue'
 import router from './router'
 
-createApp(App).use(router).mount('#app')
+createApp(NavBar).use(router).mount('#app')
